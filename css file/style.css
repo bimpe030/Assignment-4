@@ -134,6 +134,7 @@ main section{
 .second-part h1{
     font-size: 2.3rem;
     margin-bottom: 2rem;
+    color: hsl(220, 13%, 13%);
 }
 
 .second-part p{
@@ -152,10 +153,7 @@ main section{
 .price-list h2{
     display: inline;
     position: relative;
-}
-
-.price-list h2{
-    margin-right: 0.5rem;
+    color: hsl(220, 13%, 13%);
 }
 
 .price-list span{
@@ -165,7 +163,7 @@ main section{
     border-radius: 0.3rem;
     background-color: hsl(25, 100%, 94%);
     position: absolute;
-    top: 5%;
+    top: 14%;
     left: 115%;
 }
 
@@ -243,7 +241,7 @@ button img{
     .toogle{
         /* display: block; */
         visibility: visible;
-        top: 40%;
+        top: 34%;
         left: 1.2rem;
         /* transform: translate(-40%, -7%); */
     }
@@ -336,7 +334,7 @@ button img{
         }
     
     .second-part h1{
-        font-size: 1.5rem ;
+        font-size: 1.8rem ;
     }
 
     .second-part h5, p{
