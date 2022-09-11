@@ -38,8 +38,7 @@ li{
 nav{
     padding: 1rem 0;
     width: 100%;
-    border: 2px solid black;
-    /* border-bottom: 2px solid hsl(223, 64%, 98%); */
+    border-bottom: 2px solid hsl(223, 64%, 98%);
     justify-content: space-between;
     position: relative;
 }
@@ -49,17 +48,18 @@ nav .nav-brand{
 }
 
 .navBrand-box{
-    border: 2px solid black;
     padding: 1rem 0;
 }
 
 .cart{
-    margin: 0.9rem 1.3rem 0 0;
+    margin: 0.9rem 2rem 0 0;
+    height: 15px;
+    height: 15px;
 }
 
 .avatar{
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
 }
 
 .toogle{
@@ -237,6 +237,7 @@ button img{
         flex-wrap: nowrap !important;
         position: fixed;
         background-color: white;
+        border: none;
     }
 
     .toogle{
@@ -262,7 +263,10 @@ button img{
     }
     
     .cart{
-        margin-top: 0.2rem;
+        margin: 0.2rem 1rem 0 0;
+        width: 20px;
+        height: 20px;
+        
     }
 
     .nav-brand{
