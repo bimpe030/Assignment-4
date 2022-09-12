@@ -81,7 +81,7 @@ nav .nav-brand img{
 /*------------------ Main----------------- */
 
 main{
-    padding: 5rem 3rem 3rem 3rem;
+    padding: 5rem 2.8rem 3rem 3rem;
     display: flex;
     gap: 8rem;
 }
@@ -106,7 +106,7 @@ main section{
 .pic-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 1.8rem;
+    gap: 1.5rem;
 }
 
 .pic-container img{
@@ -154,7 +154,7 @@ main section{
 }
 
 .priceList-two{
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -221,6 +221,7 @@ button p{
 
 button img{
     margin: 0.1rem 0.5rem 0 0;
+    filter: brightness(0) invert(1);
 }
 
 .attribution {
